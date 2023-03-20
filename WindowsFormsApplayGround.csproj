@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{735CA9B1-A90D-436E-B3B1-1DF7F6033E9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApplayGround</RootNamespace>
+    <AssemblyName>WindowsFormsApplayGround</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckedListitems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckedListitems.Designer.cs">
+      <DependentUpon>frmCheckedListitems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComboBox.Designer.cs">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDateTimePicker.Designer.cs">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImageBox.Designer.cs">
+      <DependentUpon>frmImageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLinkLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLinkLabel.Designer.cs">
+      <DependentUpon>frmLinkLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaskedText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaskedText.Designer.cs">
+      <DependentUpon>frmMaskedText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonthCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonthCalender.Designer.cs">
+      <DependentUpon>frmMonthCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotifyIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotifyIcon.Designer.cs">
+      <DependentUpon>frmNotifyIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaint.Designer.cs">
+      <DependentUpon>frmPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmtimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmtimer.Designer.cs">
+      <DependentUpon>frmtimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lblForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lblForm.Designer.cs">
+      <DependentUpon>lblForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="regitrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regitrationForm.Designer.cs">
+      <DependentUpon>regitrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="msgBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="msgBoxForm.Designer.cs">
+      <DependentUpon>msgBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pizzaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pizzaForm.Designer.cs">
+      <DependentUpon>pizzaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckedListitems.resx">
+      <DependentUpon>frmCheckedListitems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComboBox.resx">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDateTimePicker.resx">
+      <DependentUpon>frmDateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImageBox.resx">
+      <DependentUpon>frmImageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLinkLabel.resx">
+      <DependentUpon>frmLinkLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaskedText.resx">
+      <DependentUpon>frmMaskedText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonthCalender.resx">
+      <DependentUpon>frmMonthCalender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotifyIcon.resx">
+      <DependentUpon>frmNotifyIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaint.resx">
+      <DependentUpon>frmPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmtimer.resx">
+      <DependentUpon>frmtimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lblForm.resx">
+      <DependentUpon>lblForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regitrationForm.resx">
+      <DependentUpon>regitrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msgBoxForm.resx">
+      <DependentUpon>msgBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pizzaForm.resx">
+      <DependentUpon>pizzaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slice-of-pizza-melted-cartoon-icon-illustration-on-transparent-background-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slice-of-pizza-melted-cartoon-icon-illustration-on-transparent-background-PNG1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Girl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pen.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
