@@ -140,5 +140,11 @@ namespace WindowsFormsApplayGround
             Form fr=new frmTreeView();  
             fr.ShowDialog();
         }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            Form fr=new frmProgressBar();   
+            fr.ShowDialog();
+        }
     }
 }
