@@ -124,6 +124,12 @@
     <Compile Include="frmtimer.Designer.cs">
       <DependentUpon>frmtimer.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreeView.Designer.cs">
+      <DependentUpon>frmTreeView.cs</DependentUpon>
+    </Compile>
     <Compile Include="lblForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmtimer.resx">
       <DependentUpon>frmtimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreeView.resx">
+      <DependentUpon>frmTreeView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lblForm.resx">
       <DependentUpon>lblForm.cs</DependentUpon>

@@ -134,5 +134,11 @@ namespace WindowsFormsApplayGround
             Form fr = new frmNotifyIcon();
             fr.ShowDialog();
         }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            Form fr=new frmTreeView();  
+            fr.ShowDialog();
+        }
     }
 }
