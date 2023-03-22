@@ -28,3 +28,4 @@ C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplay
 C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplayGround.frmNotifyIcon.resources
 C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplayGround.frmTreeView.resources
 C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplayGround.frmProgressBar.resources
+C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplayGround.frmListView.resources
