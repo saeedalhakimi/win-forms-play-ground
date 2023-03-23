@@ -52,6 +52,7 @@
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -296,6 +297,16 @@
             this.button24.UseVisualStyleBackColor = true;
             this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
+            // button25
+            // 
+            this.button25.Location = new System.Drawing.Point(135, 215);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(117, 23);
+            this.button25.TabIndex = 120;
+            this.button25.Text = "NumericUpDown";
+            this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
+            // 
             // Form4
             // 
             this.AcceptButton = this.button1;
@@ -303,6 +314,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button4;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button25);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button22);
@@ -359,5 +371,6 @@
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
     }
 }

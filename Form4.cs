@@ -164,5 +164,11 @@ namespace WindowsFormsApplayGround
             Form fr=new frmTrackBar();
             fr.ShowDialog();
         }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            Form fr=new frmNumericUpDown();
+            fr.ShowDialog();
+        }
     }
 }

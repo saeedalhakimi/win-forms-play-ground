@@ -31,3 +31,4 @@ C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplay
 C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplayGround.frmListView.resources
 C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplayGround.frmErrorProvider.resources
 C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplayGround.frmTrackBar.resources
+C:\Users\St02\source\repos\WindowsFormsApplayGround\obj\Debug\WindowsFormsApplayGround.frmNumericUpDown.resources
