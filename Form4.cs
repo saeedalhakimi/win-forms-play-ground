@@ -170,5 +170,11 @@ namespace WindowsFormsApplayGround
             Form fr=new frmNumericUpDown();
             fr.ShowDialog();
         }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            Form fr=new frmTabeControl();
+            fr.ShowDialog();
+        }
     }
 }
