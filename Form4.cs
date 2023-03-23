@@ -152,5 +152,11 @@ namespace WindowsFormsApplayGround
             Form fr=new frmListView();
             fr.ShowDialog();
         }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            Form fr =new frmErrorProvider();    
+            fr.ShowDialog();
+        }
     }
 }

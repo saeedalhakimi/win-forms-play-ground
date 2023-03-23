@@ -50,7 +50,7 @@ namespace WindowsFormsApplayGround
             //    checkedListBox1.Items.Add("Item " + i);
             //}
 
-            //for (int i = 1; i < 11;  i++)
+            //for (int i = 1; i < 11; i++)
             //{
             //    checkedListBox1.Items.Add("Item " + i);
             //}
